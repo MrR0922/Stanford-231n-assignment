@@ -1,0 +1,46 @@
+# Local Python environments
+.venv/
+.venv-cs231n/
+.conda-cs231n/
+
+# Local assistant and machine configuration
+.git-local/
+.agents/
+.aws/
+.codex/
+
+# Python and notebook caches
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Operating-system files
+.DS_Store
+
+# Downloaded datasets and archives
+**/data/
+**/datasets/
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+*.h5
+
+# Downloaded/trained model weights
+**/pretrained_model/
+*.pth
+*.pt
+*.ckpt
+
+# Generated outputs
+**/output/
+**/outputs/
+**/results/
+**/checkpoints/
+
+# Private keys and local secrets
+*.pem
+*.key
+.env
+.env.*
